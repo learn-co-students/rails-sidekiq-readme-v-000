@@ -41,7 +41,7 @@ Let's get it started.
 
 First we add Sidekiq to our Gemfile and run `bundle install`:
 
-```
+```ruby
 gem 'sidekiq'
 ```
 
