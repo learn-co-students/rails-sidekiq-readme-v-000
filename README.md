@@ -117,12 +117,21 @@ Then go to `/customers` and try it out. Uploading the `db/customers.csv` file sh
 immediately redirect you to `/customers`, where you can continue your
 work, and periodically refresh to see new entries!
 
+If you watch the tab running Sidekiq, you'll see something like:
+
+`LeadsWorker JID-bca14e512da7b759ad6cf37b INFO: start`
+
+That's how you know the job has started, and you can start refreshing
+the page.
+
 ## Summary
 
 We've seen how to improve the user's experience and keep our application
 responsive by using Sidekiq to offload long-running tasks into a
 background worker.
 
-Go enjoy another cup of coffee!
+**//Flat-fact:** Sidekiq isn't *officially* endorsed by Chuck Norris,
+but suffice it to say, long-running tasks would run and hide
+into a Sidekiq worker if Chuck showed up. Nobody blocks Chuck's threads.
 
-![that's good coffee](http://i.giphy.com/dGhlifOCTtSdW.gif)
+![chuck](http://i.giphy.com/SyzIHPW8oMdnW.gif)
