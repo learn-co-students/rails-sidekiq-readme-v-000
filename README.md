@@ -45,7 +45,7 @@ First we add Sidekiq to our Gemfile and run `bundle install`:
 gem 'sidekiq'
 ```
 
-Sidekiq relies on a `Worker` to define and process a *job*. Let's add a
+Sidekiq relies on a `Worker` to define and process a *job*. Let's add an
 `app/workers` directory and create our first worker:
 
 ```ruby
