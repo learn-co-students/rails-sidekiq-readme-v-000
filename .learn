@@ -1,0 +1,10 @@
+tags:
+  - rails
+  - long-running tasks
+  - csv
+  - file uploads
+  - sidekiq
+  - workers
+languages:
+  - ruby
+resources: 0
