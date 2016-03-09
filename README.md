@@ -45,6 +45,20 @@ First we add Sidekiq to our Gemfile and run `bundle install`:
 gem 'sidekiq'
 ```
 
+Sidekiq depends on [Redis](http://redis.io/), which you'll need to install. If you're running on OS X, you can run
+
+```bash
+brew install redis
+```
+
+and follow the post-install instructions to get everything up and running. On Debian-based systems (including Ubuntu), try
+
+```bash
+sudo apt-get install redis-server
+```
+
+You can also always [download Redis](http://redis.io/download) manually or exercise your Google-fu to figure out the best installation for your setup.
+
 Sidekiq relies on a `Worker` to define and process a *job*. Let's add an
 `app/workers` directory and create our first worker:
 
