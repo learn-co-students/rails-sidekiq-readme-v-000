@@ -122,8 +122,11 @@ end
 And that's it. We're now set up to run the file upload in a background
 worker.
 
-To see it in action, run your Rails server (don't forget to restart) in
-one tab, and open a new Terminal tab to run Sidekiq with this command:
+To see it in action, you'll first need to start Redis: `redis-server` (on OS X
+you can also follow the instructions that `brew info redis` prints to start
+Redis automatically using launchctl.) Then run your Rails server (don't forget
+to restart) in one tab, and open a new Terminal tab to run Sidekiq with this
+command:
 
 `bundle exec sidekiq`
 
