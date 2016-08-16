@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+# Sidekiq gem that moves leads processing to a background
+gem 'sidekiq'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
