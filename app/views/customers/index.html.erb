@@ -3,6 +3,9 @@
   <%= file_field_tag :leads %>
   <%= submit_tag "Import Leads" %>
 <% end %>
+<p>
+  <%= link_to "Clear Customer DB", clear_path %>
+</p>
 <ul>
 <% @customers.each do |customer| %>
   <li><%= "#{customer.first_name} #{customer.last_name} - #{customer.email}" %></li>
