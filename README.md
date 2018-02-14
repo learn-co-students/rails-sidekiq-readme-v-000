@@ -38,11 +38,7 @@ Sidekiq depends on [Redis](http://redis.io/), which you'll need to install. If y
 brew install redis
 ```
 
-and follow the post-install instructions to get everything up and running. On Debian-based systems (including Ubuntu), try
-
-```bash
-sudo apt-get install redis-server
-```
+and follow the post-install instructions to get everything up and running.
 
 You can also always [download Redis](http://redis.io/download) manually or exercise your Google-fu to figure out the best installation for your setup.
 
