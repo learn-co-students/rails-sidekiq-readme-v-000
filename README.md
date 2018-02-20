@@ -112,8 +112,4 @@ That's how you know the job has started, and you can start refreshing the page.
 
 We've seen how to improve the user's experience and keep our application responsive by using Sidekiq to offload long-running tasks into a background worker.
 
-**//Flat-fact:** Sidekiq isn't *officially* endorsed by Chuck Norris, but suffice it to say, long-running tasks would run and hide into a Sidekiq worker if Chuck showed up. Nobody blocks Chuck's threads.
-
-![chuck](http://i.giphy.com/SyzIHPW8oMdnW.gif)
-
 <p class='util--hide'>View <a href='https://learn.co/lessons/rails-sidekiq-readme'>Sidekiq</a> on Learn.co and start learning to code for free.</p>
