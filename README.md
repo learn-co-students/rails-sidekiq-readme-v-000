@@ -38,11 +38,7 @@ Sidekiq depends on [Redis](http://redis.io/), which you'll need to install. If y
 brew install redis
 ```
 
-and follow the post-install instructions to get everything up and running. On Debian-based systems (including Ubuntu), try
-
-```bash
-sudo apt-get install redis-server
-```
+and follow the post-install instructions to get everything up and running.
 
 You can also always [download Redis](http://redis.io/download) manually or exercise your Google-fu to figure out the best installation for your setup.
 
@@ -100,9 +96,13 @@ end
 
 And that's it. We're now set up to run the file upload in a background worker.
 
-To see it in action, you'll first need to start Redis: `redis-server` (on OS X you can also follow the instructions that `brew info redis` prints to start Redis automatically using launchctl.) Then run your Rails server (don't forget to restart) in one tab, and open a new Terminal tab to run Sidekiq with this command:
+To see it in action, you'll first need to start Redis: `redis-server` (on OS X you can also follow the instructions that `brew info redis` prints to start Redis automatically using launchctl). Then run your Rails server (don't forget to restart) in one tab, and open a new Terminal tab to run Sidekiq with this command:
 
 `bundle exec sidekiq`
+
+Your terminals may look something like this:
+
+![][sidekiq-redis-terminal]
 
 Then go to `/customers` and try it out. Uploading the `db/customers.csv` file should immediately redirect you to `/customers`, where you can continue your work, and periodically refresh to see new entries!
 
@@ -116,8 +116,6 @@ That's how you know the job has started, and you can start refreshing the page.
 
 We've seen how to improve the user's experience and keep our application responsive by using Sidekiq to offload long-running tasks into a background worker.
 
-**//Flat-fact:** Sidekiq isn't *officially* endorsed by Chuck Norris, but suffice it to say, long-running tasks would run and hide into a Sidekiq worker if Chuck showed up. Nobody blocks Chuck's threads.
-
-![chuck](http://i.giphy.com/SyzIHPW8oMdnW.gif)
+[sidekiq-redis-terminal]: https://learn-verified.s3.amazonaws.com/sidekiq-redis-terminal.png
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/rails-sidekiq-readme'>Sidekiq</a> on Learn.co and start learning to code for free.</p>
