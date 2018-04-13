@@ -17,3 +17,5 @@
 /tmp
 
 Gemfile.lock
+.DS_Store
+dump.rdb
