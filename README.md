@@ -1,5 +1,5 @@
 # Long-Running Tasks In Rails
-
+read
 # Objectives
 
 1. Use Sidekiq to move a long-running task to a background worker
