@@ -1,0 +1,82 @@
+35496:C 10 Jun 12:09:40.698 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+35496:C 10 Jun 12:09:40.699 # Redis version=4.0.9, bits=64, commit=00000000, modified=0, pid=35496, just started
+35496:C 10 Jun 12:09:40.699 # Configuration loaded
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 4.0.9 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 35496
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+35496:M 10 Jun 12:09:40.702 # Server initialized
+35496:M 10 Jun 12:09:40.702 * DB loaded from disk: 0.000 seconds
+35496:M 10 Jun 12:09:40.702 * Ready to accept connections
+/Users/roberthughes/.rvm/gems/ruby-2.3.3/gems/activesupport-4.2.5/lib/active_support/dependencies.rb:274:in `require': Interrupt
+	from /Users/roberthughes/.rvm/gems/ruby-2.3.3/gems/activesupport-4.2.5/lib/active_support/dependencies.rb:274:in `block in require'
+	from /Users/roberthughes/.rvm/gems/ruby-2.3.3/gems/activesupport-4.2.5/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /Users/roberthughes/.rvm/gems/ruby-2.3.3/gems/activesupport-4.2.5/lib/active_support/dependencies.rb:274:in `require'
+	from /Users/roberthughes/.rvm/gems/ruby-2.3.3/gems/activesupport-4.2.5/lib/active_support/dependencies/autoload.rb:70:in `block in eager_load!'
+	from /Users/roberthughes/.rvm/gems/ruby-2.3.3/gems/activesupport-4.2.5/lib/active_support/dependencies/autoload.rb:70:in `each_value'
+	from /Users/roberthughes/.rvm/gems/ruby-2.3.3/gems/activesupport-4.2.5/lib/active_support/dependencies/autoload.rb:70:in `eager_load!'
+	from /Users/roberthughes/.rvm/gems/ruby-2.3.3/gems/globalid-0.4.1/lib/global_id.rb:16:in `eager_load!'
+	from /Users/roberthughes/.rvm/gems/ruby-2.3.3/gems/railties-4.2.5/lib/rails/application/finisher.rb:56:in `each'
+	from /Users/roberthughes/.rvm/gems/ruby-2.3.3/gems/railties-4.2.5/lib/rails/application/finisher.rb:56:in `block in <module:Finisher>'
+	from /Users/roberthughes/.rvm/gems/ruby-2.3.3/gems/railties-4.2.5/lib/rails/initializable.rb:30:in `instance_exec'
+	from /Users/roberthughes/.rvm/gems/ruby-2.3.3/gems/railties-4.2.5/lib/rails/initializable.rb:30:in `run'
+	from /Users/roberthughes/.rvm/gems/ruby-2.3.3/gems/railties-4.2.5/lib/rails/initializable.rb:55:in `block in run_initializers'
+	from /Users/roberthughes/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/tsort.rb:228:in `block in tsort_each'
+	from /Users/roberthughes/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/tsort.rb:350:in `block (2 levels) in each_strongly_connected_component'
+	from /Users/roberthughes/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/tsort.rb:431:in `each_strongly_connected_component_from'
+	from /Users/roberthughes/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/tsort.rb:349:in `block in each_strongly_connected_component'
+	from /Users/roberthughes/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/tsort.rb:347:in `each'
+	from /Users/roberthughes/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/tsort.rb:347:in `call'
+	from /Users/roberthughes/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/tsort.rb:347:in `each_strongly_connected_component'
+	from /Users/roberthughes/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/tsort.rb:226:in `tsort_each'
+	from /Users/roberthughes/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/tsort.rb:205:in `tsort_each'
+	from /Users/roberthughes/.rvm/gems/ruby-2.3.3/gems/railties-4.2.5/lib/rails/initializable.rb:54:in `run_initializers'
+	from /Users/roberthughes/.rvm/gems/ruby-2.3.3/gems/railties-4.2.5/lib/rails/application.rb:352:in `initialize!'
+	from /Users/roberthughes/src/rails-and-javascript/workers/rails-sidekiq-readme-v-000/config/environment.rb:5:in `<top (required)>'
+	from /Users/roberthughes/.rvm/gems/ruby-2.3.3/gems/sidekiq-5.1.3/lib/sidekiq/cli.rb:269:in `require'
+	from /Users/roberthughes/.rvm/gems/ruby-2.3.3/gems/sidekiq-5.1.3/lib/sidekiq/cli.rb:269:in `boot_system'
+	from /Users/roberthughes/.rvm/gems/ruby-2.3.3/gems/sidekiq-5.1.3/lib/sidekiq/cli.rb:53:in `run'
+	from /Users/roberthughes/.rvm/gems/ruby-2.3.3/gems/sidekiq-5.1.3/bin/sidekiq:12:in `<top (required)>'
+	from /Users/roberthughes/.rvm/gems/ruby-2.3.3/bin/sidekiq:23:in `load'
+	from /Users/roberthughes/.rvm/gems/ruby-2.3.3/bin/sidekiq:23:in `<main>'
+	from /Users/roberthughes/.rvm/gems/ruby-2.3.3/bin/ruby_executable_hooks:15:in `eval'
+	from /Users/roberthughes/.rvm/gems/ruby-2.3.3/bin/ruby_executable_hooks:15:in `<main>'
+2018-06-10T11:14:37.403Z 36383 TID-ov2foi3p3 INFO: Running in ruby 2.3.3p222 (2016-11-21 revision 56859) [x86_64-darwin17]
+2018-06-10T11:14:37.404Z 36383 TID-ov2foi3p3 INFO: See LICENSE and the LGPL-3.0 for licensing details.
+2018-06-10T11:14:37.404Z 36383 TID-ov2foi3p3 INFO: Upgrade to Sidekiq Pro for more features and support: http://sidekiq.org
+2018-06-10T11:14:37.404Z 36383 TID-ov2foi3p3 INFO: Booting Sidekiq 5.1.3 with redis options {:id=>"Sidekiq-server-PID-36383", :url=>nil}
+2018-06-10T11:14:37.408Z 36383 TID-ov2foi3p3 INFO: Starting processing, hit Ctrl-C to stop
+35496:M 10 Jun 12:14:42.513 * 10 changes in 300 seconds. Saving...
+35496:M 10 Jun 12:14:42.513 * Background saving started by pid 36388
+36388:C 10 Jun 12:14:42.517 * DB saved on disk
+35496:M 10 Jun 12:14:42.618 * Background saving terminated with success
+2018-06-10T11:17:48.191Z 36383 TID-ov2g3pbxr LeadsWorker JID-61113c48bf0c87c84ac3b7d8 INFO: start
+2018-06-10T11:19:06.130Z 36383 TID-ov2foi3p3 INFO: Shutting down
+2018-06-10T11:19:06.131Z 36383 TID-ov2foi3p3 INFO: Terminating quiet workers
+2018-06-10T11:19:06.133Z 36383 TID-ov2g3pd0f INFO: Scheduler exiting...
+2018-06-10T11:19:06.638Z 36383 TID-ov2foi3p3 INFO: Pausing to allow workers to finish...
+2018-06-10T11:19:13.678Z 36383 TID-ov2foi3p3 WARN: Terminating 1 busy worker threads
+2018-06-10T11:19:13.678Z 36383 TID-ov2foi3p3 WARN: Work still in progress [#<struct Sidekiq::BasicFetch::UnitOfWork queue="queue:default", job="{\"class\":\"LeadsWorker\",\"args\":[\"/var/folders/2d/g_h1vw2d3wd76d9668ttl4000000gn/T/RackMultipart20180610-36517-1shu7wr.csv\"],\"retry\":true,\"queue\":\"default\",\"jid\":\"61113c48bf0c87c84ac3b7d8\",\"created_at\":1528629468.1879628,\"enqueued_at\":1528629468.188205}">]
+2018-06-10T11:19:13.679Z 36383 TID-ov2foi3p3 INFO: Pushed 1 jobs back to Redis
+log writing failed. Sidekiq::Shutdown2018-06-10T11:19:13.691Z 36383 TID-ov2foi3p3 INFO: Bye!
+
+35496:signal-handler (1528629567) Received SIGTERM scheduling shutdown...
+35496:M 10 Jun 12:19:27.221 # User requested shutdown...
+35496:M 10 Jun 12:19:27.221 * Saving the final RDB snapshot before exiting.
+35496:M 10 Jun 12:19:27.224 * DB saved on disk
+35496:M 10 Jun 12:19:27.224 * Removing the pid file.
+35496:M 10 Jun 12:19:27.225 # Redis is now ready to exit, bye bye...

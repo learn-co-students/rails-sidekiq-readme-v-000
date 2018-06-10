@@ -45,3 +45,9 @@ group :development do
   gem 'spring'
 end
 
+
+# Added at 2018-06-10 12:08:03 +0100 by roberthughes:
+gem "sidekiq", "~> 5.1"
+
+# Added at 2018-06-10 12:13:35 +0100 by roberthughes:
+gem "csv", "~> 3.0"
