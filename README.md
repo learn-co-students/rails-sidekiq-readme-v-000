@@ -11,7 +11,7 @@ If a long-running task takes *too* long, it will frustrate users and possibly ca
 In our case, our sales team is happy that we gave them a way to upload leads, but they want to be able to get right back to contacting customers and not have to wait for the uploading and processing to complete.
 
 ## Workers
-
+asd
 In Rails, we talk about *workers* as processes that will allow us to execute tasks outside of the main web application thread.
 
 The reason it takes so long to load `/customers` after uploading our file is that we are processing the file on the same thread as the request/response. File processing becomes a *blocking* action on the thread, and nothing else can happen until that's done, causing the sales person to sit and stare at a blank screen for a minute.
