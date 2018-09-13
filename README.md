@@ -4,6 +4,7 @@
 
 1. Use Sidekiq to move a long-running task to a background worker
 
+#Lecture
 # Lesson
 
 If a long-running task takes *too* long, it will frustrate users and possibly cause time-outs and lead to errors.
