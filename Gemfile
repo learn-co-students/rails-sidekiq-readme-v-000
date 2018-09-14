@@ -45,5 +45,7 @@ group :development do
   gem 'spring'
 
   gem 'sidekiq'
+  gem 'thin'
+  gem 'pry'
 end
 
