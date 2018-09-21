@@ -38,4 +38,11 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+  Sidekiq.configure_server do |config|
+    config.redis = { url: 'redis://redis.example.com:7372/12', id: nil }
+  end
+  
+  Sidekiq.configure_client do |config|
+    config.redis = { url: 'redis://redis.example.com:7372/12', id: nil }
+  end
 end

@@ -1,0 +1,297 @@
+[4295] 21 Sep 10:08:54 * Server started, Redis version 2.2.14
+[4295] 21 Sep 10:08:54 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+[4295] 21 Sep 10:08:54 * The server is now ready to accept connections on port 6379
+[4295] 21 Sep 10:08:54 - 0 clients connected (0 slaves), 539704 bytes in use
+[4295] 21 Sep 10:08:54 - Accepted 127.0.0.1:42658
+[4295] 21 Sep 10:08:54 - Client closed connection
+[4295] 21 Sep 10:08:54 - Accepted 127.0.0.1:42660
+[4295] 21 Sep 10:08:54 - Client closed connection
+[4295] 21 Sep 10:08:59 - 0 clients connected (0 slaves), 539704 bytes in use
+[4295] 21 Sep 10:09:04 - 0 clients connected (0 slaves), 539704 bytes in use
+[4295] 21 Sep 10:09:09 - 0 clients connected (0 slaves), 539704 bytes in use
+[4295] 21 Sep 10:09:14 - 0 clients connected (0 slaves), 539704 bytes in use
+[4295] 21 Sep 10:09:19 - 0 clients connected (0 slaves), 539704 bytes in use
+[4295] 21 Sep 10:09:24 - 0 clients connected (0 slaves), 539704 bytes in use
+[4295] 21 Sep 10:09:29 - 0 clients connected (0 slaves), 539704 bytes in use
+[4295] 21 Sep 10:09:34 - 0 clients connected (0 slaves), 539704 bytes in use
+[4295] 21 Sep 10:09:38 # Received SIGTERM, scheduling shutdown...
+[4295] 21 Sep 10:09:38 # User requested shutdown...
+[4295] 21 Sep 10:09:38 * Saving the final RDB snapshot before exiting.
+[4295] 21 Sep 10:09:38 * DB saved on disk
+[4295] 21 Sep 10:09:38 * Removing the pid file.
+[4295] 21 Sep 10:09:38 # Redis is now ready to exit, bye bye...
+[4340] 21 Sep 10:09:50 * Server started, Redis version 2.2.14
+[4340] 21 Sep 10:09:50 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+[4340] 21 Sep 10:09:50 * DB loaded from disk: 0 seconds
+[4340] 21 Sep 10:09:50 * The server is now ready to accept connections on port 6379
+[4340] 21 Sep 10:09:50 - 0 clients connected (0 slaves), 539704 bytes in use
+[4340] 21 Sep 10:09:50 - Accepted 127.0.0.1:42662
+[4340] 21 Sep 10:09:50 - Client closed connection
+[4340] 21 Sep 10:09:50 - Accepted 127.0.0.1:42664
+[4340] 21 Sep 10:09:50 - Client closed connection
+[4340] 21 Sep 10:09:55 - 0 clients connected (0 slaves), 539704 bytes in use
+[4340] 21 Sep 10:10:00 - 0 clients connected (0 slaves), 539704 bytes in use
+[4340] 21 Sep 10:10:05 - 0 clients connected (0 slaves), 539704 bytes in use
+[4340] 21 Sep 10:10:10 - 0 clients connected (0 slaves), 539704 bytes in use
+[4340] 21 Sep 10:10:11 - Accepted 127.0.0.1:42666
+[4340] 21 Sep 10:10:11 - Client closed connection
+[4340] 21 Sep 10:10:11 - Accepted 127.0.0.1:42668
+[4340] 21 Sep 10:10:11 - Accepted 127.0.0.1:42670
+[4340] 21 Sep 10:10:11 - Accepted 127.0.0.1:42672
+[4340] 21 Sep 10:10:11 - Accepted 127.0.0.1:42674
+[4340] 21 Sep 10:10:11 - Accepted 127.0.0.1:42676
+[4340] 21 Sep 10:10:11 - Accepted 127.0.0.1:42678
+[4340] 21 Sep 10:10:11 - Client closed connection
+[4340] 21 Sep 10:10:12 - Accepted 127.0.0.1:42680
+[4340] 21 Sep 10:10:12 - Accepted 127.0.0.1:42682
+[4340] 21 Sep 10:10:12 - Accepted 127.0.0.1:42684
+[4340] 21 Sep 10:10:12 - Accepted 127.0.0.1:42686
+[4340] 21 Sep 10:10:12 - Accepted 127.0.0.1:42688
+[4340] 21 Sep 10:10:15 - 10 clients connected (0 slaves), 620092 bytes in use
+[4340] 21 Sep 10:10:16 - Accepted 127.0.0.1:42690
+[4340] 21 Sep 10:10:16 - Client closed connection
+[4340] 21 Sep 10:10:20 - 10 clients connected (0 slaves), 620092 bytes in use
+[4340] 21 Sep 10:10:21 - Accepted 127.0.0.1:42692
+[4340] 21 Sep 10:10:21 - Client closed connection
+[4340] 21 Sep 10:10:24 - Accepted 127.0.0.1:42694
+[4340] 21 Sep 10:10:24 - Client closed connection
+[4340] 21 Sep 10:10:24 - Accepted 127.0.0.1:42696
+[4340] 21 Sep 10:10:24 - Client closed connection
+[4340] 21 Sep 10:10:25 - 10 clients connected (0 slaves), 620092 bytes in use
+[4340] 21 Sep 10:10:26 - Accepted 127.0.0.1:42698
+[4340] 21 Sep 10:10:26 - Client closed connection
+[4340] 21 Sep 10:10:29 - Accepted 127.0.0.1:42700
+[4340] 21 Sep 10:10:29 - Client closed connection
+[4340] 21 Sep 10:10:29 - Accepted 127.0.0.1:42702
+[4340] 21 Sep 10:10:29 - Client closed connection
+[4340] 21 Sep 10:10:30 - 10 clients connected (0 slaves), 620092 bytes in use
+[4340] 21 Sep 10:10:31 - Accepted 127.0.0.1:42704
+[4340] 21 Sep 10:10:31 - Client closed connection
+[4340] 21 Sep 10:10:34 - Accepted 127.0.0.1:42706
+[4340] 21 Sep 10:10:34 - Client closed connection
+[4340] 21 Sep 10:10:34 - Accepted 127.0.0.1:42708
+[4340] 21 Sep 10:10:34 - Client closed connection
+[4340] 21 Sep 10:10:35 - 10 clients connected (0 slaves), 620092 bytes in use
+[4340] 21 Sep 10:10:36 - Accepted 127.0.0.1:42710
+[4340] 21 Sep 10:10:36 - Client closed connection
+[4340] 21 Sep 10:10:39 - Accepted 127.0.0.1:42712
+[4340] 21 Sep 10:10:39 - Client closed connection
+[4340] 21 Sep 10:10:39 - Accepted 127.0.0.1:42714
+[4340] 21 Sep 10:10:39 - Client closed connection
+[4340] 21 Sep 10:10:40 - 10 clients connected (0 slaves), 620092 bytes in use
+[4340] 21 Sep 10:10:41 - Accepted 127.0.0.1:42716
+[4340] 21 Sep 10:10:41 - Client closed connection
+[4340] 21 Sep 10:10:44 - Accepted 127.0.0.1:42718
+[4340] 21 Sep 10:10:44 - Client closed connection
+[4340] 21 Sep 10:10:44 - Accepted 127.0.0.1:42720
+[4340] 21 Sep 10:10:44 - Client closed connection
+[4340] 21 Sep 10:10:45 - 10 clients connected (0 slaves), 620092 bytes in use
+[4340] 21 Sep 10:10:46 - Accepted 127.0.0.1:42722
+[4340] 21 Sep 10:10:46 - Client closed connection
+[4340] 21 Sep 10:10:49 - Accepted 127.0.0.1:42724
+[4340] 21 Sep 10:10:49 - Client closed connection
+[4340] 21 Sep 10:10:49 - Accepted 127.0.0.1:42726
+[4340] 21 Sep 10:10:49 - Client closed connection
+[4340] 21 Sep 10:10:50 - 10 clients connected (0 slaves), 620092 bytes in use
+[4340] 21 Sep 10:10:51 - Accepted 127.0.0.1:42728
+[4340] 21 Sep 10:10:51 - Client closed connection
+[4340] 21 Sep 10:10:54 - Accepted 127.0.0.1:42730
+[4340] 21 Sep 10:10:54 - Client closed connection
+[4340] 21 Sep 10:10:54 - Accepted 127.0.0.1:42732
+[4340] 21 Sep 10:10:54 - Client closed connection
+[4340] 21 Sep 10:10:55 - 10 clients connected (0 slaves), 620092 bytes in use
+[4340] 21 Sep 10:10:56 - Accepted 127.0.0.1:42734
+[4340] 21 Sep 10:10:56 - Client closed connection
+[4340] 21 Sep 10:10:59 - Accepted 127.0.0.1:42736
+[4340] 21 Sep 10:10:59 - Client closed connection
+[4340] 21 Sep 10:10:59 - Accepted 127.0.0.1:42738
+[4340] 21 Sep 10:10:59 - Client closed connection
+[4340] 21 Sep 10:11:00 - 10 clients connected (0 slaves), 620092 bytes in use
+[4340] 21 Sep 10:11:01 - Accepted 127.0.0.1:42740
+[4340] 21 Sep 10:11:01 - Client closed connection
+[4340] 21 Sep 10:11:04 - Accepted 127.0.0.1:42742
+[4340] 21 Sep 10:11:04 - Client closed connection
+[4340] 21 Sep 10:11:04 - Accepted 127.0.0.1:42744
+[4340] 21 Sep 10:11:04 - Client closed connection
+[4340] 21 Sep 10:11:05 - 10 clients connected (0 slaves), 620092 bytes in use
+[4340] 21 Sep 10:11:06 - Accepted 127.0.0.1:42746
+[4340] 21 Sep 10:11:06 - Client closed connection
+[4340] 21 Sep 10:11:09 - Accepted 127.0.0.1:42748
+[4340] 21 Sep 10:11:09 - Client closed connection
+[4340] 21 Sep 10:11:09 - Accepted 127.0.0.1:42750
+[4340] 21 Sep 10:11:09 - Client closed connection
+[4340] 21 Sep 10:11:10 - 10 clients connected (0 slaves), 620092 bytes in use
+[4340] 21 Sep 10:11:11 - Accepted 127.0.0.1:42752
+[4340] 21 Sep 10:11:11 - Client closed connection
+[4340] 21 Sep 10:11:14 - Accepted 127.0.0.1:42754
+[4340] 21 Sep 10:11:14 - Client closed connection
+[4340] 21 Sep 10:11:14 - Accepted 127.0.0.1:42756
+[4340] 21 Sep 10:11:14 - Client closed connection
+[4340] 21 Sep 10:11:15 - 10 clients connected (0 slaves), 620092 bytes in use
+[4340] 21 Sep 10:11:16 - Accepted 127.0.0.1:42758
+[4340] 21 Sep 10:11:16 - Client closed connection
+[4340] 21 Sep 10:11:19 - Accepted 127.0.0.1:42760
+[4340] 21 Sep 10:11:19 - Client closed connection
+[4340] 21 Sep 10:11:19 - Accepted 127.0.0.1:42762
+[4340] 21 Sep 10:11:19 - Client closed connection
+[4340] 21 Sep 10:11:20 - 10 clients connected (0 slaves), 620092 bytes in use
+[4340] 21 Sep 10:11:21 - Accepted 127.0.0.1:42764
+[4340] 21 Sep 10:11:21 - Client closed connection
+[4340] 21 Sep 10:11:24 - Accepted 127.0.0.1:42766
+[4340] 21 Sep 10:11:24 - Client closed connection
+[4340] 21 Sep 10:11:24 - Accepted 127.0.0.1:42768
+[4340] 21 Sep 10:11:24 - Client closed connection
+[4340] 21 Sep 10:11:25 - 10 clients connected (0 slaves), 620092 bytes in use
+[4340] 21 Sep 10:11:26 - Accepted 127.0.0.1:42770
+[4340] 21 Sep 10:11:26 - Client closed connection
+[4340] 21 Sep 10:11:29 - Accepted 127.0.0.1:42772
+[4340] 21 Sep 10:11:29 - Client closed connection
+[4340] 21 Sep 10:11:29 - Accepted 127.0.0.1:42774
+[4340] 21 Sep 10:11:29 - Client closed connection
+[4340] 21 Sep 10:11:30 - 10 clients connected (0 slaves), 620092 bytes in use
+[4340] 21 Sep 10:11:31 - Accepted 127.0.0.1:42776
+[4340] 21 Sep 10:11:31 - Client closed connection
+[4340] 21 Sep 10:11:34 - Accepted 127.0.0.1:42778
+[4340] 21 Sep 10:11:34 - Client closed connection
+[4340] 21 Sep 10:11:34 - Accepted 127.0.0.1:42780
+[4340] 21 Sep 10:11:34 - Client closed connection
+[4340] 21 Sep 10:11:35 - 10 clients connected (0 slaves), 620092 bytes in use
+[4340] 21 Sep 10:11:36 - Accepted 127.0.0.1:42782
+[4340] 21 Sep 10:11:36 - Client closed connection
+[4340] 21 Sep 10:11:39 - Accepted 127.0.0.1:42784
+[4340] 21 Sep 10:11:39 - Client closed connection
+[4340] 21 Sep 10:11:39 - Accepted 127.0.0.1:42786
+[4340] 21 Sep 10:11:39 - Client closed connection
+[4340] 21 Sep 10:11:40 - 10 clients connected (0 slaves), 620092 bytes in use
+[4340] 21 Sep 10:11:41 - Accepted 127.0.0.1:42788
+[4340] 21 Sep 10:11:41 - Client closed connection
+[4340] 21 Sep 10:11:44 - Accepted 127.0.0.1:42790
+[4340] 21 Sep 10:11:44 - Client closed connection
+[4340] 21 Sep 10:11:44 - Accepted 127.0.0.1:42792
+[4340] 21 Sep 10:11:44 - Client closed connection
+[4340] 21 Sep 10:11:45 - 10 clients connected (0 slaves), 620092 bytes in use
+[4340] 21 Sep 10:11:46 - Accepted 127.0.0.1:42794
+[4340] 21 Sep 10:11:46 - Client closed connection
+[4340] 21 Sep 10:11:49 - Accepted 127.0.0.1:42796
+[4340] 21 Sep 10:11:49 - Client closed connection
+[4340] 21 Sep 10:11:49 - Accepted 127.0.0.1:42798
+[4340] 21 Sep 10:11:49 - Client closed connection
+[4340] 21 Sep 10:11:50 - 10 clients connected (0 slaves), 620092 bytes in use
+[4340] 21 Sep 10:11:51 - Accepted 127.0.0.1:42800
+[4340] 21 Sep 10:11:51 - Client closed connection
+[4340] 21 Sep 10:11:54 - Accepted 127.0.0.1:42802
+[4340] 21 Sep 10:11:54 - Client closed connection
+[4340] 21 Sep 10:11:54 - Accepted 127.0.0.1:42804
+[4340] 21 Sep 10:11:54 - Client closed connection
+[4340] 21 Sep 10:11:55 - 10 clients connected (0 slaves), 620092 bytes in use
+[4340] 21 Sep 10:11:56 - Accepted 127.0.0.1:42806
+[4340] 21 Sep 10:11:56 - Client closed connection
+[4340] 21 Sep 10:11:59 - Accepted 127.0.0.1:42808
+[4340] 21 Sep 10:11:59 - Client closed connection
+[4340] 21 Sep 10:11:59 - Accepted 127.0.0.1:42810
+[4340] 21 Sep 10:11:59 - Client closed connection
+[4340] 21 Sep 10:12:00 - 10 clients connected (0 slaves), 620092 bytes in use
+[4340] 21 Sep 10:12:01 - Accepted 127.0.0.1:42812
+[4340] 21 Sep 10:12:01 - Client closed connection
+[4340] 21 Sep 10:12:04 - Accepted 127.0.0.1:42814
+[4340] 21 Sep 10:12:04 - Client closed connection
+[4340] 21 Sep 10:12:04 - Accepted 127.0.0.1:42816
+[4340] 21 Sep 10:12:04 - Client closed connection
+[4340] 21 Sep 10:12:05 - 10 clients connected (0 slaves), 620092 bytes in use
+[4340] 21 Sep 10:12:06 - Accepted 127.0.0.1:42818
+[4340] 21 Sep 10:12:06 - Client closed connection
+[4340] 21 Sep 10:12:09 - Accepted 127.0.0.1:42820
+[4340] 21 Sep 10:12:09 - Client closed connection
+[4340] 21 Sep 10:12:09 - Accepted 127.0.0.1:42822
+[4340] 21 Sep 10:12:09 - Client closed connection
+[4340] 21 Sep 10:12:10 - 10 clients connected (0 slaves), 620092 bytes in use
+[4340] 21 Sep 10:12:11 - Accepted 127.0.0.1:42824
+[4340] 21 Sep 10:12:11 - Client closed connection
+[4340] 21 Sep 10:12:12 - Client closed connection
+[4340] 21 Sep 10:12:12 - Client closed connection
+[4340] 21 Sep 10:12:12 - Client closed connection
+[4340] 21 Sep 10:12:12 - Client closed connection
+[4340] 21 Sep 10:12:12 - Client closed connection
+[4340] 21 Sep 10:12:12 - Client closed connection
+[4340] 21 Sep 10:12:12 - Client closed connection
+[4340] 21 Sep 10:12:12 - Client closed connection
+[4340] 21 Sep 10:12:12 - Client closed connection
+[4340] 21 Sep 10:12:12 - Client closed connection
+[4340] 21 Sep 10:12:15 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:12:20 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:12:25 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:12:30 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:12:35 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:12:40 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:12:45 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:12:51 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:12:56 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:13:01 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:13:06 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:13:11 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:13:16 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:13:21 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:13:26 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:13:31 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:13:36 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:13:41 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:13:46 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:13:51 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:13:56 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:14:01 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:14:06 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:14:11 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:14:16 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:14:21 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:14:26 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:14:31 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:14:36 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:14:41 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:14:46 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:14:51 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:14:56 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:15:01 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:15:06 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:15:11 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:15:16 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:15:21 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:15:26 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:15:31 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:15:36 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:15:41 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:15:46 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:15:51 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:15:56 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:16:01 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:16:06 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:16:11 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:16:16 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:16:21 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:16:26 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:16:31 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:16:36 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:16:41 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:16:46 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:16:51 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:16:56 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:17:01 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:17:06 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:17:11 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:17:16 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:17:21 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:17:26 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:17:31 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:17:36 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:17:42 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:17:47 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:17:52 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:17:57 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:18:02 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:18:07 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:18:12 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:18:17 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:18:22 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:18:27 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:18:32 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:18:37 - 0 clients connected (0 slaves), 539724 bytes in use
+[4340] 21 Sep 10:18:42 - 0 clients connected (0 slaves), 539724 bytes in use
