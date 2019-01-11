@@ -6,7 +6,8 @@
 
 # Lesson
 
-If a long-running task takes *too* long, it will frustrate users and possibly cause time-outs and lead to errors.
+If a long-running tas
+k takes *too* long, it will frustrate users and possibly cause time-outs and lead to errors.
 
 In our case, our sales team is happy that we gave them a way to upload leads, but they want to be able to get right back to contacting customers and not have to wait for the uploading and processing to complete.
 
