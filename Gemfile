@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'bundler', '~> 1.6', '>=1.16.1'
+gem 'sidekiq'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
